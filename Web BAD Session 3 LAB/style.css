@@ -1,0 +1,69 @@
+/* 
+select ID = #
+select CLASS = .
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #B99B6B; 
+}
+
+#page-title {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#login-form-container {
+  background-color: #f1dbbf;
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  border-radius: 10px;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+}
+
+#login-button {
+  background-color: #698269;
+  width: 90px;
+  padding-block: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border: none rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#login-button:hover {
+  background-color: black;
+  opacity: 1;
+}
+
+/* -------------------------- */
+
+.form-input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 25px;
+}
+
+/* -------------------------- */
+
+/* button {} */

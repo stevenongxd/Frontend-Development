@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Page</title>
+  <style>
+    table, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Age</th>
+      <th>GPA</th>
+      <th>Salary</th>
+    </thead>
+    <tbody>
+      <!-- tr*5>td*4 -->
+      <tr>
+        <td>Irvin</td>
+        <td rowspan="3">18</td>
+        <td>3.67</td>
+        <td>10000</td>
+      </tr>
+      <tr>
+        <td>Steve</td>
+        <td rowspan="2">4</td>
+        <td rowspan="2">80000</td>
+      </tr>
+      <tr>
+        <td>Louis</td>
+      </tr>
+      <tr>
+        <td>Toto</td>
+        <td rowspan="2">19</td>
+        <td rowspan="2">3.43</td>
+        <td>70000</td>
+      </tr>
+      <tr>
+        <td>Oey</td>
+        <td>54000</td>
+      </tr>
+      <tr>
+        <td colspan="4">Ini 4 column</td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="form2.html">Form Page 2</a>
+</body>
+</html>
