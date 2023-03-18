@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  font-size: 125%;
+  padding: 2rem;
+  border-bottom: 2px solid black;
+  /* 20vh -> 20% tinggi layar || 10vw -> 10% lebar layar || 2rem -> 2 ukuran font; */
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: flex-start;
+}
+
+.navbar-item:last-child {
+  margin-left: auto;
+}
+
+/* inline vs block
+   inline: kiri kanan
+   block: semua arah
+*/
+
+.navbar-item {
+  padding: 1rem 2rem;
+  display: block;
+}
+
+.navbar-item:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+}
+
+
+/* absolute: relative terhadap parent. Parentnya bukan static */
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  border: 2px solid black;
+  transform: scaleY(0);
+  transition: transform 500ms;
+  transform-origin: top;
+}
+
+.dropdown:hover .dropdown-menu {
+  transform: scaleY(1);
+}
+
+.dropdown-item {
+  min-width: max-content;
+  background-color: blue;
+}
+
+.dropdown-item:hover {
+  background-color: aqua;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* rule */
+@media screen {
+  main {
+    background-color: aqua;
+  }
+}
+
+@media print {
+  main {
+    background-color: yellow;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-item:last-child {
+    margin-left: 0;
+  }
+}
