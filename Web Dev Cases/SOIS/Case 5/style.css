@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+#container {
+  position: relative;
+}
+
+.images {
+  position: absolute;
+  width: 100%;
+}
+
+.menu-bar {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.table-bar {
+  width: 100%;
+  background-color: rgb(78, 46, 1);
+  color: orange;
+  margin-top: 560px;
+}
+
+.menu-link {
+  color: orange;
+  text-decoration: none;
+}
+
+.backgrounds {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  line-height: 0px;
+}
+
+#top-bg {
+  margin-top: 600px;
+}
+
+.home-text {
+  position: absolute;
+  font-family: 'Parisienne', cursive;
+  font-size: xx-large;
+  font-weight: bolder;
+  line-height: 15px;
+  text-align: center;
+  width: 100%;
+  margin-top: 650px;
+  z-index: 2;
+}
+
+.home-image {
+  position: absolute;
+  border: 10px solid black;
+  text-align: center;
+  margin-top: 800px;
+  margin-left: 720px;
+  z-index: 2;
+}
+
+.home-food-image {
+  width: 400px;
+}
+
+.home-description {
+  margin-top: 1120px;
+  color: rgb(75, 49, 0);
+  position: absolute;
+  z-index: 2;
+  text-align: justify;
+  align-items: center;
+  width: 855px;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 500px;
+}
+
+.sponsor {
+  position: absolute;
+  width: 100%;
+  margin-top: 1550px;
+  margin-left: 830px;
+  z-index: 3;
+  max-width: 10%;
+}
+
+.copyright-footer {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 1700px;
+}
