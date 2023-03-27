@@ -1,0 +1,115 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.main-headline {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(0, 0, 82);
+}
+
+.img-fn {
+  width: 300px;
+}
+
+#news1, #news3 {
+  float: left;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+#news2 {
+  float: right;
+  margin-right: 150px;
+  margin-left: 10px;
+}
+
+#title1, #title2, #title3 {
+  color: red;
+  font-weight: bold;
+}
+
+.img-desc {
+  line-height: 20px;
+  font-size: medium;
+}
+
+#desc1, #desc3 {
+  margin-right: 300px;
+}
+
+#desc2 {
+  text-align: right;
+  margin-left: 300px;
+}
+
+#title2 {
+  text-align: right;
+}
+
+#container-2 {
+  margin-top: 250px;
+}
+
+#container-3 {
+  margin-top: 250px;
+}
+
+#mini-container {
+  margin-top: 222px;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 82);
+}
+
+.new-arrivals-img {
+  width: 100px;
+}
+
+.new-arrivals {
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+#container-4 {
+  display: flex;
+  width: 80%;
+  margin-left: 180px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.table-header {
+  background-color: rgb(64, 64, 105);
+  line-height: 35px;
+  color: white;
+}
+
+#row1, #row3 {
+  background-color: #e0e0e0;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 64, 105);
+  color: white;
+}
+
+.contact {
+  width: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+}

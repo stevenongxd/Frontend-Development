@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#container-0 {
+  color: black;
+}
+
+.wrapper {
+  position: relative;
+  height: 115vh;
+}
+
+#home-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#main-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+  line-height: 100px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.main-headline {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(0, 0, 82);
+}
+
+.mock-button {
+  background-color: rgb(64, 64, 105);
+  width: 160px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.img-fn {
+  width: 300px;
+}
+
+#news1, #news3 {
+  float: left;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+#news2 {
+  float: right;
+  margin-right: 150px;
+  margin-left: 10px;
+}
+
+#title1, #title2, #title3 {
+  color: red;
+  font-weight: bold;
+}
+
+.img-desc {
+  line-height: 20px;
+  font-size: medium;
+}
+
+#desc1, #desc3 {
+  margin-right: 300px;
+}
+
+#desc2 {
+  text-align: right;
+  margin-left: 300px;
+}
+
+#title2 {
+  text-align: right;
+}
+
+#container-2 {
+  margin-top: 250px;
+}
+
+#container-3 {
+  margin-top: 250px;
+}
+
+#mini-container {
+  margin-top: 222px;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 82);
+}
+
+.new-arrivals-img {
+  width: 100px;
+}
+
+.new-arrivals {
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+#container-4 {
+  display: flex;
+  width: 80%;
+  margin-left: 180px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.table-header {
+  background-color: rgb(64, 64, 105);
+  line-height: 35px;
+  color: white;
+}
+
+#row1, #row3 {
+  background-color: #e0e0e0;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 64, 105);
+  color: white;
+}
+
+.contact {
+  width: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* navbar */
+#navbar-wrapper {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  background-color: rgb(64, 64, 105);
+  align-items: center; 
+}
+
+#left-navbar {
+  display: flex;
+  width: 15%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+}
+
+#right-navbar {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-product, .navbar-home  {
+  background-color: rgb(255, 60, 0);
+  padding: 10px;
+}
+
+/* content */
+#content {
+  max-width: 1880px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents {
+  width: 1680px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contents h1 {
+  width: 100px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+#cards-wrapper {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 400px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-out;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  width: 100%;
+  height: 80%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.desc {
+  width: 95%;
+  height: 20%;
+  line-height: 35px;
+  padding-left: 10px;
+}
+
+.top-side {
+  color: #aaaaaa;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-side {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.clothes-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  /* styles for screens smaller than 768px */
+  #navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-home {
+    margin-bottom: 10px;
+  }
+
+  #right-navbar {
+    display: none;
+  }
+}
+
