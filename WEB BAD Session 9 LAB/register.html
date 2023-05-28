@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website - Register</title>
+    <link rel="stylesheet" href="register.css" />
+    <script src="./jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <form id="form-register">
+      <h1>Sign Up</h1>
+      <div class="form-field">
+        <label for="usermail">Email</label>
+        <input
+          type="text"
+          id="usermail"
+          name="usermail"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="form-field">
+        <label>Gender</label>
+        <div id="radio-group">
+          <div>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+      </div>
+      <div class="form-field">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="form-field">
+        <label for="repass">Re-password</label>
+        <input
+          type="password"
+          id="repass"
+          name="repass"
+          placeholder="Re-enter your password"
+        />
+      </div>
+      <div class="form-field">
+        <label for="ccn">Credit Card Number</label>
+        <input
+          type="text"
+          id="ccn"
+          name="ccn"
+          placeholder="xxxx-xxxx-xxxx-xxxx"
+        />
+      </div>
+      <div class="form-field">
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <div class="form-field" id="agree-form">
+        <label for="agree">I agree with all of the term and condition</label>
+        <input type="checkbox" id="agree" name="agree" />
+      </div>
+      <button type="submit" id="register-button">Register</button>
+    </form>
+  </body>
+  <script src="main.js"></script>
+</html>

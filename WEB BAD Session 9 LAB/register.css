@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(232, 232, 232);
+}
+
+#form-register {
+    width: 30%;
+    height: 45rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-field {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: .5rem;
+}
+
+.form-field > label {
+    font-weight: bold;
+}
+
+.form-field > input {
+    height: 2rem;
+    border-radius: 8px;
+    border: 0.5px rgba(0, 0, 0, 0.25) solid;
+    padding-inline-start: .5rem;
+    box-sizing: border-box;
+}
+
+.form-field > input:focus {
+    outline: none;
+}
+
+#agree-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    column-gap: 1rem;
+}
+
+#radio-group, #radio-group > div {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+#male, #female {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+#register-button {
+    width: 60%;
+    height: 3rem;
+    background-color: rgb(0, 115, 255);
+    border: 0.5px rgba(0, 0, 0, 0.25) solid;
+    border-radius: 15px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+#register-button:hover {
+    background-color: rgb(0, 80, 179);
+    transition: 300ms;
+}
