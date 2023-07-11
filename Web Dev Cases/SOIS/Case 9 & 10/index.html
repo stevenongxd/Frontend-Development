@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case 9</title>
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="background">
+      <img src="/images/background.png" alt="">
+    </div>
+    <header>
+      <div class="header-bg">
+        <img src="/images/header.png" alt="">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Food</a></li>
+          <li><a href="">Drink</a></li>
+          <li><a href="">Transaction</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <main>
+      <div class="bg-paper">
+        <img src="/images/topbkg.png" alt="">
+        <img src="/images/midbkg.jpg" alt="">
+        <img src="/images/botbkg.png" alt="">
+      </div>
+
+      <div class="top">
+        <h1>Form</h1>
+        <h3>Transaction Form For Reservation</h3>
+      </div>
+
+      <div class="mid">
+        <form action="" method="post">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+          <br>
+          <label for="branch">Branch</label>
+          <select name="branch" id="branch" >
+            <option value="" disabled selected>-Choose One-</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Tanggerang">Tanggerang</option>
+          </select>
+          <br>
+          Reservation Type
+          <input type="radio" name="radio" id="reguler"> Reguler
+          <input type="radio" name="radio" id="exclusive"> Exclusive
+          <br>
+          <label for="contact">Contact Number</label>
+          <input type="text" name="contact" id="contact">
+          <br>
+          <input type="checkbox" name="agree" id="agree"> I Agree to Reserve
+          <br>
+          <button type="button" onclick="Reserve()">Reserve</button>
+          <button type="button" onclick="Delete()">Reset</button>
+        </form>
+      </div>
+
+      <div class="bot">
+        <h4>Copyright &copy; 2014 by Academic Team</h4>
+      </div>
+    </main>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>

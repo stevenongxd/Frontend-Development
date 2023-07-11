@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-img img {
+  position: absolute;
+  z-index: -11;
+}
+
+/* Nav */
+nav ul {
+  padding: 10px 0px 10px 0px;
+  margin-top: -5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(78, 57, 29);
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: orange;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+nav, .mid {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main Content */
+.content-container {
+  position: absolute;
+  width: 100%;
+}
+
+.bg-paper {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-paper img {
+  margin-top: -4px;
+}
+
+.top, .bot {
+  font-family: 'Parisienne', cursive !important;
+}
+
+.top, .mid, .bot {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top {
+  font-size: xx-large;
+  margin-top: 100px;
+}
+
+.mid {
+  font-size: larger;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.mid h4 {
+  width: 62%;
+}
+
+.mid table {
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+.mid table tr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mid table th, .mid table td {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.mid img {
+  width: 150px;
+}
+
+.total {
+  margin-top: 40px;
+  width: 30%;
+  display: flex;
+  justify-content: center; 
+}
+
+.bot {
+  font-size: x-large;
+  margin-top: 50px;
+}
